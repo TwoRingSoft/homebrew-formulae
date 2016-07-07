@@ -1,4 +1,4 @@
-class Semver < Formula
+class Semver1_0_0 < Formula
   desc "Easy semver and numerical revisioning"
   homepage "https://github.com/TwoRingSoft/semver"
   url "https://github.com/TwoRingSoft/semver/archive/1.0.0+b1.tar.gz"
