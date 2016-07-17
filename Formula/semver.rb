@@ -1,9 +1,9 @@
 class Semver < Formula
   desc "Easy semver and numerical revisioning"
   homepage "https://github.com/TwoRingSoft/semver"
-  url "https://github.com/TwoRingSoft/semver/archive/1.1.0+b6.tar.gz"
-  version "1.1.0"
-  sha256 "a8b2b3dced0ffdf53c026a01ddd24ca514ba17ce94611465ed22e31e637d696b"
+  url "https://github.com/TwoRingSoft/semver/archive/1.2.0+b11.tar.gz"
+  version "1.2.0"
+  sha256 "786e4d406fbd1776e9ea3d1efda575a9ee0bdb2c88425fcaac4c7715306db230"
 
   depends_on :xcode => "7.0"
 
