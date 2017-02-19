@@ -1,4 +1,6 @@
-set -e
+#!/bin/sh
+
+set -eou pipefail
 
 brew tap tworingsoft/formulae
 
