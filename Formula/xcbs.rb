@@ -3,13 +3,13 @@ class Xcbs < Formula
   homepage "https://github.com/TwoRingSoft/xcbs"
   url "https://github.com/TwoRingSoft/xcbs/archive/1.0.0+b1.tar.gz"
   version "1.0.0"
-  sha256 "a48d8ec8290ab680847c158f1d0fd2bbf3a57450bbfc4ecca39ce062522081f3"
+  sha256 "b56893f428884cd4ba8d1164de6eb8f85db789e01b910a85f2e11eacf9c33526"
 
   def install
-    bin.install_symlink "#{prefix}/xcbs"
+    sbin.install_symlink "#{prefix}/xcbs"
   end
 
   test do
-    system "#{bin}/xcbs", "--help"
+    system "#{sbin}/xcbs", "--help"
   end
 end
