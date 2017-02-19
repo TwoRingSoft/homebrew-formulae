@@ -6,7 +6,8 @@ class Xcbs < Formula
   sha256 "b56893f428884cd4ba8d1164de6eb8f85db789e01b910a85f2e11eacf9c33526"
 
   def install
-    sbin.install_symlink "#{prefix}/xcbs"
+    bin.install "scripts/xcbs"
+    ln_sf "#{bin}/xcbs", "/usr/local/bin/xcbs"
   end
 
   test do
