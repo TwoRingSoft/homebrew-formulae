@@ -1,7 +1,7 @@
-class Semver < Formula
-  desc "Easy semver and numerical revisioning"
-  homepage "https://github.com/TwoRingSoft/semver"
-  url "https://github.com/TwoRingSoft/semver/archive/1.2.2+b13.tar.gz"
+class Vrsn < Formula
+  desc "Easy semantic and numerical revisioning"
+  homepage "https://github.com/TwoRingSoft/Vrsnr"
+  url "https://github.com/TwoRingSoft/Vrsnr/archive/1.2.2+b13.tar.gz"
   version "1.2.2"
   sha256 "a48d8ec8290ab680847c158f1d0fd2bbf3a57450bbfc4ecca39ce062522081f3"
 
@@ -9,11 +9,11 @@ class Semver < Formula
 
   def install
     system "make", "-B"
-    prefix.install "Build/Build/Products/Release/semver"
-    bin.install_symlink "#{prefix}/semver"
+    prefix.install "Build/Build/Products/Release/vrsn"
+    bin.install_symlink "#{prefix}/vrsn"
   end
 
   test do
-    system "#{bin}/semver", "--help"
+    system "#{bin}/vrsn", "--help"
   end
 end
