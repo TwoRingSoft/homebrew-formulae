@@ -3,7 +3,7 @@ class Vrsn < Formula
   homepage "https://github.com/TwoRingSoft/Vrsnr"
   url "https://github.com/TwoRingSoft/Vrsnr/archive/1.2.2+b13.tar.gz"
   version "2.0.0"
-  sha256 "a48d8ec8290ab680847c158f1d0fd2bbf3a57450bbfc4ecca39ce062522081f3"
+  sha256 "7cd27b272e53f8186407bad28af1c0ee4902f835e09eadcd3b36f2d291e29af5"
 
   depends_on :xcode => "8.2.1"
 
