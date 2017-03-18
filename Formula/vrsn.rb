@@ -2,10 +2,10 @@ class Vrsn < Formula
   desc "Easy semantic and numerical revisioning"
   homepage "https://github.com/TwoRingSoft/Vrsnr"
   url "https://github.com/TwoRingSoft/Vrsnr/archive/1.2.2+b13.tar.gz"
-  version "1.2.2"
+  version "2.0.0"
   sha256 "a48d8ec8290ab680847c158f1d0fd2bbf3a57450bbfc4ecca39ce062522081f3"
 
-  depends_on :xcode => "8.2"
+  depends_on :xcode => "8.2.1"
 
   def install
     system "make", "-B"
