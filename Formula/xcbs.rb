@@ -8,10 +8,10 @@ class Xcbs < Formula
   def install
     bin.install "scripts/list-configurations.rb"
     bin.install "scripts/xcbs"
-    bin.install "scripts/sort-settings-by-values.rb"
+    bin.install "lib/settings-to-unexpand"
     ln_sf "#{bin}/list-configurations.rb", "/usr/local/bin/list-configurations.rb"
     ln_sf "#{bin}/xcbs", "/usr/local/bin/xcbs"
-    ln_sf "#{bin}/sort-settings-by-values.rb", "/usr/local/bin/sort-settings-by-values.rb"
+    ln_sf "#{bin}/settings-to-unexpand", "/usr/local/bin/settings-to-unexpand"
   end
 
   test do
