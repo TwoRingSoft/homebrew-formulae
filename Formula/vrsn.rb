@@ -1,7 +1,7 @@
 class Vrsn < Formula
   desc "Easy semantic and numerical revisioning"
   homepage "https://github.com/TwoRingSoft/Vrsnr"
-  url "https://github.com/TwoRingSoft/Vrsnr/archive/1.2.2+b13.tar.gz"
+  url "https://github.com/TwoRingSoft/Vrsnr/archive/2.0.0+b14.tar.gz"
   version "2.0.0"
   sha256 "7cd27b272e53f8186407bad28af1c0ee4902f835e09eadcd3b36f2d291e29af5"
 
