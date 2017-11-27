@@ -7,5 +7,6 @@ class Psst < Formula
 
   def install
     prefix.install "psst"
+    bin.install_symlink "#{prefix}/psst"
   end
 end
