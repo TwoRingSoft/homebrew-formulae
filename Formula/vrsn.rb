@@ -1,8 +1,8 @@
 class Vrsn < Formula
   desc "Easy semantic and numerical revisioning"
   homepage "https://github.com/TwoRingSoft/Vrsnr"
-  url "https://github.com/TwoRingSoft/Vrsnr/archive/2.0.0+b14.tar.gz"
-  version "2.0.0"
+  url "https://github.com/TwoRingSoft/Vrsnr/archive/2.0.1+b15.tar.gz"
+  version "2.0.1"
   sha256 "5eeaf5509cb3e8450bcf27b3f8920058806c995870b6853de72451fb9a0368e5"
 
   depends_on :xcode => "8.2.1"
