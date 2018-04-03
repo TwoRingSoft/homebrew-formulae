@@ -1,0 +1,9 @@
+[submodule "sources/xcbs"]
+	path = sources/xcbs
+	url = git@github.com:TwoRingSoft/xcbs.git
+[submodule "sources/Vrsnr"]
+	path = sources/Vrsnr
+	url = git@github.com:TwoRingSoft/Vrsnr.git
+[submodule "psst"]
+	path = psst
+	url = git@github.com:TwoRingSoft/psst.git
