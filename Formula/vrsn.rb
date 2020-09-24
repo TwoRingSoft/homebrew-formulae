@@ -9,7 +9,7 @@ class Vrsn < Formula
   depends_on :xcode => "10.0.0"
 
   def install
-    system "make", "-B"
+    system "make", "build"
     prefix.install "Build/Build/Products/Release/vrsn"
     bin.install_symlink "#{prefix}/vrsn"
   end
